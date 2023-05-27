@@ -1,0 +1,7 @@
+# Run python scripts every minutes
+*/30 * * * * /usr/local/bin/python /app/health.py > /proc/1/fd/1 2>/proc/1/fd/2
+# Run project-1
+* * * * * /app/project-1/python /app/project-1/run.py argument_1 > /proc/1/fd/1 2>/proc/1/fd/2
+* * * * * /app/project-1/python /app/project-1/run.py argument_2 > /proc/1/fd/1 2>/proc/1/fd/2
+# Run project-2
+* * * * * /app/project-2/python /app/project-2/run.py > /proc/1/fd/1 2>/proc/1/fd/2

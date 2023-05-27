@@ -1,0 +1,11 @@
+# IDEs
+.vscode
+.idea
+
+# Python Binaries
+**/__pycache__
+**/*.py[cod]
+
+# Environments
+**/*venv
+**/*.venv

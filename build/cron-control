@@ -1,0 +1,10 @@
+#!/bin/bash
+F=$1
+shift
+if [ "$F" = "enable" ]; then
+    command /build/cron-control.sh -e $@
+elif [ "$F" = "disable" ]; then
+    command /build/cron-control.sh -d $@
+else
+    echo "Perhaps you meant enable or disable?"
+fi

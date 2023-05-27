@@ -1,0 +1,24 @@
+# Version Control
+**/.git
+**/.gitignore
+**/.gitmodules
+
+# IDEs
+.vscode
+.idea
+
+# Python Binaries
+**/__pycache__
+**/*.py[cod]
+
+# docker
+docker-compose*.yml
+Dockerfile
+.dockerignore
+
+# Markdown
+**/*.md
+
+# Environments
+**/*venv
+**/*.venv
